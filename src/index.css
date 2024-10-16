@@ -1,0 +1,79 @@
+.container {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.input {
+  border: none;
+  width: 400px;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 20px;
+}
+body {
+  background-color: #272e36;
+  font-family: sans-serif;
+}
+.box {
+  padding-top: 100px;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.send_btn {
+  width: 432px;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: lightgreen;
+  color: white;
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+.send_btn:hover {
+  background-color: green;
+}
+.card {
+  margin-top: 10px;
+  width: 400px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: lightgreen;
+}
+
+.delete_btn {
+  width: 400px;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5px;
+  transition: all 0.6s ease;
+}
+.delete_btn:hover {
+  background-color: darkred;
+}
+.edit_btn {
+  width: 400px;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: greenyellow;
+  color: white;
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+.edit_btn:hover {
+  background-color: darkgreen;
+}
